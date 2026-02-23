@@ -1,0 +1,35 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Runtime outputs
+frontend/runtime/pipeline_runs/*
+frontend/runtime/uploads/*
+!frontend/runtime/pipeline_runs/.gitkeep
+!frontend/runtime/uploads/.gitkeep
+frontend/runtime/med.png
+backend/runs/
+
+# Input images are user/session specific and can be large.
+image-input/*
+!image-input/.gitkeep
+
+# Large model/checkpoint artifacts
+backend/inference/models/*.safetensors
+backend/inference/models/*.bin
+backend/inference/models/*.pt
+backend/inference/models/*.pth
+backend/inference/models/*.ckpt
+backend/inference/models/*.onnx
+backend/inference/models/*.h5
+backend/inference/models/*.msgpack
+backend/inference/models/*.gguf
+backend/inference/models/*.tflite
+
+# Optional local artifacts that can become large during experiments
+*.npz
+*.npy
+*.pickle
+*.pkl
