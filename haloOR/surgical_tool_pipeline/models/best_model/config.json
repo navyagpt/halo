@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-02-18T05:04:07.188196+00:00",
+  "model_id": "google/medsiglip-448",
+  "dataset_path": "surgical tools",
+  "embedding_normalization_steps": [
+    "l2norm"
+  ],
+  "best_head": {
+    "name": "logreg_C=1.0",
+    "type": "logreg",
+    "hyperparameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "multi_class": "multinomial"
+    },
+    "val_accuracy": 0.99609375,
+    "val_macro_f1": 0.9960935115668681
+  },
+  "test_preview": {
+    "accuracy": 0.99609375,
+    "macro_f1": 0.9960935115668681
+  },
+  "artifacts": {
+    "classifier": "model.joblib",
+    "label_mapping": "label_mapping.json",
+    "candidate_results": "candidate_results.json"
+  },
+  "seed": 42
+}

@@ -1,0 +1,14 @@
+{
+  "id2label": {
+    "0": "forceps",
+    "1": "hemostat",
+    "2": "scalpel",
+    "3": "scissors"
+  },
+  "label2id": {
+    "forceps": 0,
+    "hemostat": 1,
+    "scalpel": 2,
+    "scissors": 3
+  }
+}

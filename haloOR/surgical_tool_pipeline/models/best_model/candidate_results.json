@@ -1,0 +1,189 @@
+{
+  "results": [
+    {
+      "name": "logreg_C=0.01",
+      "head": "logreg",
+      "params": {
+        "C": 0.01,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.95703125,
+      "val_macro_f1": 0.9568772221967894
+    },
+    {
+      "name": "logreg_C=0.1",
+      "head": "logreg",
+      "params": {
+        "C": 0.1,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.984375,
+      "val_macro_f1": 0.9843711843711844
+    },
+    {
+      "name": "logreg_C=1.0",
+      "head": "logreg",
+      "params": {
+        "C": 1.0,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "logreg_C=5.0",
+      "head": "logreg",
+      "params": {
+        "C": 5.0,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "logreg_C=10.0",
+      "head": "logreg",
+      "params": {
+        "C": 10.0,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "logreg_C=50.0",
+      "head": "logreg",
+      "params": {
+        "C": 50.0,
+        "solver": "lbfgs",
+        "multi_class": "multinomial"
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "svm_linear_calibrated_C=0.01",
+      "head": "linear_svm_calibrated",
+      "params": {
+        "C": 0.01
+      },
+      "val_accuracy": 0.9921875,
+      "val_macro_f1": 0.9921855921855922
+    },
+    {
+      "name": "svm_linear_calibrated_C=0.1",
+      "head": "linear_svm_calibrated",
+      "params": {
+        "C": 0.1
+      },
+      "val_accuracy": 0.9921875,
+      "val_macro_f1": 0.9921855921855922
+    },
+    {
+      "name": "svm_linear_calibrated_C=1.0",
+      "head": "linear_svm_calibrated",
+      "params": {
+        "C": 1.0
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "svm_linear_calibrated_C=5.0",
+      "head": "linear_svm_calibrated",
+      "params": {
+        "C": 5.0
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "svm_linear_calibrated_C=10.0",
+      "head": "linear_svm_calibrated",
+      "params": {
+        "C": 10.0
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "mlp_hidden=(128,)_alpha=0.0001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          128
+        ],
+        "alpha": 0.0001
+      },
+      "val_accuracy": 0.98828125,
+      "val_macro_f1": 0.9882805347006043
+    },
+    {
+      "name": "mlp_hidden=(128,)_alpha=0.001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          128
+        ],
+        "alpha": 0.001
+      },
+      "val_accuracy": 0.98828125,
+      "val_macro_f1": 0.9882805347006043
+    },
+    {
+      "name": "mlp_hidden=(256,)_alpha=0.0001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          256
+        ],
+        "alpha": 0.0001
+      },
+      "val_accuracy": 0.98828125,
+      "val_macro_f1": 0.9882748091603053
+    },
+    {
+      "name": "mlp_hidden=(256,)_alpha=0.001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          256
+        ],
+        "alpha": 0.001
+      },
+      "val_accuracy": 0.98828125,
+      "val_macro_f1": 0.9882748091603053
+    },
+    {
+      "name": "mlp_hidden=(256, 128)_alpha=0.0001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          128
+        ],
+        "alpha": 0.0001
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    },
+    {
+      "name": "mlp_hidden=(256, 128)_alpha=0.001",
+      "head": "mlp",
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          128
+        ],
+        "alpha": 0.001
+      },
+      "val_accuracy": 0.99609375,
+      "val_macro_f1": 0.9960935115668681
+    }
+  ]
+}
