@@ -2,6 +2,18 @@
 
 ![HALO](assets/halo.png)
 
+## Code Availability and Reproducibility
+
+The training and inference code for each HALO component is available in its dedicated subdirectory:
+
+- [HALO-RX](HALO-RX/)
+- [HALO-OR](HALO-OR/)
+- [HALO-Act](HALO-Act/)
+
+All core pipelines are organized so they can be run and reproduced even if you do **not** have a robot. We designed the repository to make results reproducible from software-only workflows and provided assets, scripts, and module-level run instructions in each component folder.
+
+For **physical execution** with HALO-Act, you should use the **SO-100 Arm**.
+
 ## Team
 - Navya Gupta: Data Scientist at Kalderos 
   - Speciality: Multimodal Machine Learning, LLM distillation, Edge ML, product 
